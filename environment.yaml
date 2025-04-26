@@ -1,0 +1,42 @@
+name: ansible
+channels:
+  - defaults
+  - conda-forge
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=1_gnu
+  - ansible=11.3.0=pyh707e725_0
+  - ansible-core=2.18.3=pyh707e725_0
+  - bzip2=1.0.8=h5eee18b_6
+  - ca-certificates=2025.2.25=h06a4308_0
+  - cffi=1.17.1=py311h1fdaa30_1
+  - cryptography=44.0.1=py311h7825ff9_0
+  - docker-compose=2.35.1=ha770c72_0
+  - jinja2=3.1.6=pyhd8ed1ab_0
+  - ld_impl_linux-64=2.40=h12ee557_0
+  - libffi=3.4.4=h6a678d5_1
+  - libgcc-ng=11.2.0=h1234567_1
+  - libgomp=11.2.0=h1234567_1
+  - libstdcxx-ng=11.2.0=h1234567_1
+  - libuuid=1.41.5=h5eee18b_0
+  - markupsafe=3.0.2=pyhe1237c8_1
+  - ncurses=6.4=h6a678d5_0
+  - openssl=3.0.16=h5eee18b_0
+  - packaging=25.0=pyh29332c3_1
+  - pip=25.0=py311h06a4308_0
+  - pycparser=2.22=pyh29332c3_1
+  - python=3.11.11=he870216_0
+  - pyyaml=6.0.2=pyhe1237c8_2
+  - readline=8.2=h5eee18b_0
+  - resolvelib=1.0.1=pyhd8ed1ab_0
+  - setuptools=75.8.0=py311h06a4308_0
+  - sqlite=3.45.3=h5eee18b_0
+  - tk=8.6.14=h39e8969_0
+  - tzdata=2025a=h04d1e81_0
+  - wheel=0.45.1=py311h06a4308_0
+  - xz=5.6.4=h5eee18b_1
+  - yaml=0.2.5=h7f98852_2
+  - zlib=1.2.13=h5eee18b_1
+prefix: /home/anonymous/miniconda3/envs/ansible
